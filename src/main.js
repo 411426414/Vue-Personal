@@ -18,6 +18,8 @@ axios.interceptors.request.use(config => {
   // console.log(config)
   // 为请求头对象，添加token验证的Authorization字段
   config.headers.Authorization = window.sessionStorage.getItem('token')
+  // 在最后必须 return config
+  return config
 })
 
 // 挂在到Vue实例，后面可通过this调用
