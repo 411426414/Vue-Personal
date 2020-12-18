@@ -1,5 +1,7 @@
 import axios from 'axios'
 import 'element-ui/lib/theme-chalk/index.css'
+import NProgress from 'nprogress'
+import 'nprogress/nprogress.css'
 import Vue from 'vue'
 import App from './App.vue'
 import './assets/css/global.css'
