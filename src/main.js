@@ -17,6 +17,7 @@ axios.defaults.baseURL = 'https://www.liulongbin.top:8888/api/private/v1/'
 // 在request 拦截器中, 展示进度条 NProgress.start()
 // 请求在到达服务器之前，先会调用use中的这个回调函数来添加请求头信息
 axios.interceptors.request.use(config => {
+  NProgress.start()
   // console.log(config)
   // 为请求头对象，添加token验证的Authorization字段
   config.headers.Authorization = window.sessionStorage.getItem('token')
