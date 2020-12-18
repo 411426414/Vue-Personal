@@ -24,6 +24,11 @@ axios.interceptors.request.use(config => {
   // 在最后必须 return config
   return config
 })
+// response 拦截器中,隐藏进度条NProgress.done()
+axios.interceptors.response.use(config => {
+  NProgress.done()
+  return config
+})
 
 // 挂在到Vue实例，后面可通过this调用
 Vue.prototype.$http = axios
