@@ -15,6 +15,7 @@
     "less": "^3.13.0",
     "less-loader": "^7.1.0",
     "mysql2": "^2.2.5",
+    "nprogress": "^0.2.0",
     "sequelize": "^6.3.5",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
