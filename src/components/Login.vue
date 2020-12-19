@@ -50,49 +50,18 @@ export default {
         username: "admin",
         password: "123456"
       },
-      loginFormRules: {
-        username: [
-          { required: true, message: "请输入用户名", trigger: "blur" },
-          {
-            min: 3,
-            max: 10,
-            message: "长度在 3 到 10 个字符",
-            trigger: "blur",
-          },
-        ],
-        password: [
-          { required: true, message: "请输入密码", trigger: "blur" },
-          {
-            min: 6,
-            max: 15,
-            message: "长度在 6 到 15 个字符",
-            trigger: "blur",
-          },
-        ],
-      },
-    };
-  },
-  methods: {
-    Reset() {
-      this.$refs.loginFormRef.resetFields();
-    },
-    Login() {
-      this.$refs.loginFormRef.validate(async (valid) => {
-        if (!valid) return false
-        const { data: res } = await this.$http.post("login", this.loginForm);
-        if (res.meta.status !== 200) {
-          return this.$message.error("登录失败");
-        }
-        this.$message.success("登录成功");
-        // 1、将登陆成功之后的token, 保存到客户端的sessionStorage中; localStorage中是持久化的保存
-        //   1.1 项目中出现了登录之外的其他API接口，必须在登陆之后才能访问
-        //   1.2 token 只应在当前网站打开期间生效，所以将token保存在sessionStorage中
-        window.sessionStorage.setItem("token", res.data.token);
-        // 2、通过编程式导航跳转到后台主页, 路由地址为：/home
-        this.$router.push("/home");
-      });
-    },
-  },
+      loginFormRules:{
+        username:[
+          { required: true, message: "请输入用户名", trigger: "blur"},
+          { min: 3, max: 10, message: "长度在 3 到 10 个字符", trigger: "blur" }
+        ], 
+        password:[
+          { required: true, message: "请输入密码", trigger: "blur"},
+          { min: 6, max: 15, message: "长度在 6 到 15 个字符",  trigger: "blur" }
+        ]
+      }
+    }
+  }
 };
 </script>
 
