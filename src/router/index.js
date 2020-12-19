@@ -31,6 +31,9 @@ router.beforeEach((to, from, next) => {
   if (to.path === '/login') return next()
   // 从sessionStorage中获取到保存的token值
   const tokenStr = window.sessionStorage.getItem('token')
+  // 没有token，，强制跳转到登录页
+  if (!tokenStr) return next('/login')
+  next()
 })
 
 export default router
