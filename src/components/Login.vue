@@ -62,9 +62,14 @@ export default {
       }
     }
   },
-  methods:{
-    Reset(){
+  methods: {
+    Reset() {
       this.$refs.loginFormRef.resetFields()
+    },
+    Login() {
+      this.$refs.loginFormRef.validate(async (valid) => {
+        if (!valid) return false;
+        })
     }
   }
 };
