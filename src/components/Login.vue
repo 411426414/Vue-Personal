@@ -61,6 +61,11 @@ export default {
         ]
       }
     }
+  },
+  methods:{
+    Reset(){
+      this.$refs.loginFormRef.resetFields()
+    }
   }
 };
 </script>
