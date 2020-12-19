@@ -29,6 +29,8 @@ const router = new VueRouter({
 router.beforeEach((to, from, next) => {
   // 如果用户访问的登录页，直接放行
   if (to.path === '/login') return next()
+  // 从sessionStorage中获取到保存的token值
+  const tokenStr = window.sessionStorage.getItem('token')
 })
 
 export default router
