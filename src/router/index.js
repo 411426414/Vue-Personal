@@ -26,6 +26,9 @@ const router = new VueRouter({
 //  from代表从哪个路径跳转而来
 //  next是一个函数，表示放行
 //  next() 放行   next(' /login')强制跳转
-router.beforeEach((to, from, next) => {})
+router.beforeEach((to, from, next) => {
+  // 如果用户访问的登录页，直接放行
+  if (to.path === '/login') return next()
+})
 
 export default router
