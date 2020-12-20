@@ -1,6 +1,6 @@
+import Login from '@/components/Login.vue'
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Login from '../components/Login.vue'
 
 Vue.use(VueRouter)
 
@@ -13,7 +13,7 @@ const routes = [
   {
     path: '/home',
     name: 'Home',
-    component: () => import('../views/Home')
+    component: () => import('@/views/Home')
   }
 ]
 
