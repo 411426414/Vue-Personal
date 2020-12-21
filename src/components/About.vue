@@ -57,4 +57,9 @@ export default {};
   border-bottom: 2px solid #ccc;
   border-right: 2px solid #ccc;
 }
+.introduction {
+  width: 80%;
+  text-indent: 2rem;
+  margin: 0 auto;
+}
 </style>
