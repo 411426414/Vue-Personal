@@ -2,6 +2,7 @@
   <div class="about">
     <div class="img">关于我</div>
     <div class="about-me">
+      <h1 class="title">我的简介</h1>
     </div>
   </div>
 </template>
@@ -22,5 +23,16 @@ export default {};
 .about-me {
   width: 100%;
   height: 810px;
+}
+.title {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: inline-block;
+  position: relative;
+  padding: 60px 20px;
+  margin: 0;
+  font-size: 30px;
 }
 </style>
