@@ -15,7 +15,9 @@ import {
   MenuItem,
   MenuItemGroup,
   Message,
-  Submenu
+  Submenu,
+  Table,
+  TableColumn
 } from 'element-ui'
 import Vue from 'vue'
 
@@ -35,6 +37,8 @@ Vue.use(Menu)
 Vue.use(MenuItem)
 Vue.use(MenuItemGroup)
 Vue.use(Submenu)
+Vue.use(Table)
+Vue.use(TableColumn)
 
 // 将弹框组件全局挂在到VUe原型实例
 Vue.prototype.$message = Message
