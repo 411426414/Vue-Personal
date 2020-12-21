@@ -35,4 +35,14 @@ export default {};
   margin: 0;
   font-size: 30px;
 }
+.title:after {
+  content: "";
+  position: absolute;
+  right: -5px;
+  top: 55%;
+  height: 1em;
+  width: 50%;
+  border-bottom: 2px solid #ccc;
+  border-right: 2px solid #ccc;
+}
 </style>
