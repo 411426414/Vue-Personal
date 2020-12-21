@@ -11,6 +11,9 @@ import {
   Header,
   Input,
   Main,
+  Menu,
+  MenuItem,
+  MenuItemGroup,
   Message
 } from 'element-ui'
 import Vue from 'vue'
@@ -27,6 +30,9 @@ Vue.use(Aside)
 Vue.use(Dropdown)
 Vue.use(DropdownMenu)
 Vue.use(DropdownItem)
+Vue.use(Menu)
+Vue.use(MenuItem)
+Vue.use(MenuItemGroup)
 
 // 将弹框组件全局挂在到VUe原型实例
 Vue.prototype.$message = Message
