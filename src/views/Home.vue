@@ -1,7 +1,11 @@
 <template>
   <el-container class="container">
     <el-container>
-      <el-header>Header</el-header>
+      <el-header>
+        <div>
+          <span> Header </span>
+        </div>
+      </el-header>
       <el-container>
         <el-aside width="200px">
           <el-menu
