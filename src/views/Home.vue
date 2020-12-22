@@ -5,6 +5,7 @@
       <el-container>
         <el-aside width="200px">
           <el-menu
+            router
             unique-opened
             text-color="#fff"
             :collapse-transition="false"
