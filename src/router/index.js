@@ -17,13 +17,15 @@ const routes = [
   {
     path: '/home',
     name: 'Home',
-    component: () => import('@/views/Home')
+    component: () => import('@/views/Home'),
+    children: [
+      {
+        path: '/about',
+        name: 'About',
+        component: () => import('@/components/About')
+      }
+    ]
   },
-  {
-    path: '/about',
-    name: 'About',
-    component: () => import('@/components/About')
-  }
 ]
 
 const router = new VueRouter({
