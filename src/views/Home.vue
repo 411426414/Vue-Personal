@@ -5,6 +5,7 @@
       <el-container>
         <el-aside width="200px">
           <el-menu
+            unique-opened
             text-color="#fff"
             :collapse-transition="false"
             class="el-menu-vertical-demo"
