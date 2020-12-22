@@ -66,7 +66,9 @@
 <script>
 export default {
   data() {
-    return {}
+    return {
+      isCollapse: false,
+    };
   },
   methods: {
     logout() {
