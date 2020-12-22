@@ -101,4 +101,13 @@ export default {
   margin-right: 10px;
 }
 
+.toggle-button {
+  background-color: #4a5064;
+  font-size: 10px;
+  line-height: 24px;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 0.2em;
+  cursor: pointer;
+}
 </style>
