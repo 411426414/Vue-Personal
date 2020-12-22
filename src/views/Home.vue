@@ -67,6 +67,11 @@
 export default {
   data() {
     return {}
+  },
+  methods: {
+    logout() {
+      window.sessionStorage.clear(); // 清空token
+    }
   }
 }
 </script>
