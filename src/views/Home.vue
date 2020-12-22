@@ -3,6 +3,7 @@
     <el-container>
       <el-header>
         <div>
+          <img src="@/assets/heima.png" />
           <span> Header </span>
         </div>
       </el-header>
