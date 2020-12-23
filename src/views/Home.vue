@@ -15,6 +15,7 @@
             router
             unique-opened
             text-color="#fff"
+            :collapse="isCollapse"
             :collapse-transition="false"
             class="el-menu-vertical-demo"
             background-color="#545c64"
