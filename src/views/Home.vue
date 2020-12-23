@@ -10,6 +10,7 @@
       </el-header>
       <el-container>
         <el-aside :width="isCollapse ? '64px' : '200px'">
+          <div class="toggle-button" @click="collapse">|||</div>
           <el-menu
             router
             unique-opened
