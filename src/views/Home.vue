@@ -76,6 +76,9 @@ export default {
     logout() {
       window.sessionStorage.clear(); // 清空token
       this.$router.push("/login"); // 跳转到登录页面
+    },
+    collapse() {
+      this.isCollapse = !this.isCollapse
     }
   }
 }
