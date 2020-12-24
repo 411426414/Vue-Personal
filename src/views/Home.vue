@@ -69,7 +69,7 @@ export default {
 }
 
 .el-header {
-  // background-color: #373d41;
+  background-color: #373d41;
   // display: flex;
   // 左右贴边对齐
   // justify-content: space-between;
