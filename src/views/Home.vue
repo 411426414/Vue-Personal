@@ -8,6 +8,7 @@
         background-color="#545c64"
         text-color="#fff"
         active-text-color="#ffd04b"
+        :default-active="activeIndex"
       >
         <el-menu-item index="/home">主页</el-menu-item>
         <el-menu-item index="/about">关于</el-menu-item>
@@ -47,6 +48,7 @@ export default {
   data() {
     return {
       isCollapse: true,
+      activeIndex: '/home'
     };
   },
   methods: {
