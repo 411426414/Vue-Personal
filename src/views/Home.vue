@@ -34,6 +34,8 @@
     </el-header>
     <el-container>
       <el-main>
+        <!-- 路由占位符 -->
+        <router-view></router-view>
       </el-main>
       <el-footer>Footer</el-footer>
     </el-container>
