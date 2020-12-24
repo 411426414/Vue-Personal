@@ -88,10 +88,10 @@ export default {
 }
 
 .el-header {
-  background-color: #373d41;
-  display: flex;
+  // background-color: #373d41;
+  // display: flex;
   // 左右贴边对齐
-  justify-content: space-between;
+  // justify-content: space-between;
   padding-left: 0 !important;
   align-items: center;
   color: #fff;
