@@ -4,6 +4,7 @@
     <div class="about-me">
       <h1 class="title">我的简介</h1>
       <div class="content">
+        <div class="cover"></div>
         <div class="introduction">
           <p>
             嗨！我是中国的邓（邓）勇先生；我毕业于
@@ -61,6 +62,18 @@ export default {};
 .content {
   position: relative;
 }
+.content .cover {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: url(https://www.dengzhanyong.com/img/aboutMe-bg.fc46291b.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  border-radius: 8px;
+  filter: blur(8px);
+  z-index: -10;
+}
+
 .introduction {
   width: 80%;
   text-indent: 2rem;
