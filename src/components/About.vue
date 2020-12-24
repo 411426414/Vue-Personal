@@ -75,8 +75,21 @@ export default {};
 }
 
 .introduction {
-  width: 80%;
-  text-indent: 2rem;
-  margin: 0 auto;
+  // width: 80%;
+  // text-indent: 2rem;
+  // margin: 0 auto;
+
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.2);
+  top: 0;
+  left: 0;
+  padding: 15px;
+  text-align: left;
+  color: #333;
+  color: #fff;
+  line-height: 2em;
+  font-size: 18px;
+  font-family: acuta;
+  text-indent: 2em;
 }
 </style>
