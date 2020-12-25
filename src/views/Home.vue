@@ -48,7 +48,6 @@ export default {
   data() {
     return {
       isCollapse: true,
-      activeIndex: '/home'
     };
   },
   methods: {
@@ -73,7 +72,6 @@ export default {
   // display: flex;
   // 左右贴边对齐
   justify-content: space-between;
-  padding-left: 0 !important;
   align-items: center;
   color: #fff;
   font-size: 20px;
@@ -88,30 +86,12 @@ export default {
   }
 }
 
-.el-aside {
-  background-color: #333744;
-  text-align: center;
-  .el-menu {
-    border: none;
-  }
-}
-
 .el-main {
   background-color: #eaedf1;
+}
+.el-header,
+.el-main,
+.el-footer {
   padding: 0;
-}
-
-.iconfont {
-  margin-right: 10px;
-}
-
-.toggle-button {
-  background-color: #4a5064;
-  font-size: 10px;
-  line-height: 24px;
-  color: #fff;
-  text-align: center;
-  letter-spacing: 0.2em;
-  cursor: pointer;
 }
 </style>
