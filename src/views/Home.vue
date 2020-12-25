@@ -38,15 +38,15 @@
         <!-- 路由占位符 -->
         <router-view></router-view>
       </el-main>
-      <el-footer >
-        <footer></footer>
-      </el-footer >
+      <el-footer>
+        <v-footer></v-footer>
+      </el-footer>
     </el-container>
   </el-container>
 </template>
 
 <script>
-import Footer from '../components/Footer'
+import Footer from '@/components/Footer'
 export default {
   data() {
     return {
@@ -64,7 +64,7 @@ export default {
     },
   },
   components:{
-    'footer': Footer
+    'vFooter': Footer
   }
 }
 </script>
