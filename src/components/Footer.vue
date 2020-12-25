@@ -42,6 +42,27 @@
             <li><a href="">css-tricks</a></li>
           </ul>
         </div>
+        <div class="link-item">
+          <div class="copyright">
+            <img
+              src="https://www.dengzhanyong.com/img/name.a3c3e9aa.png"
+              style="width: 90%"
+            />
+            <p>❤️ Copyright ©2020 邓占勇的博客</p>
+            <p>
+              为了您更好的体验<br />建议您使用
+              <a href="https://www.google.com/chrome/" target="_blank">
+                Chrome浏览器
+              </a>
+            </p>
+            <p class="gov">
+              <a href="http://www.beian.miit.gov.cn/" target="_blank">
+                渝ICP备18005329号-3
+              </a>
+            </p>
+            <p style="margin-top: 1rem">您是第18283位访客，今日增长32</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
