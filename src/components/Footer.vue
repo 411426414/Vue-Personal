@@ -111,6 +111,27 @@ export default {
             }
           }
         }
+        .copyright {
+          height: 100%;
+          -webkit-box-align: center;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          flex-direction: column;
+          display: flex;
+          align-items: center;
+          -webkit-box-pack: center;
+          justify-content: center;
+          p {
+            margin: 0;
+            line-height: 2em;
+            a {
+              font-size: 12px;
+            }
+          }
+          .gov {
+            text-align: left;
+          }
+        }
       }
     }
   }
