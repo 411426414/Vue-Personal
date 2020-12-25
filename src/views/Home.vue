@@ -38,15 +38,15 @@
         <!-- 路由占位符 -->
         <router-view></router-view>
       </el-main>
-      <el-footer>
-        <v-footer></v-footer>
-      </el-footer>
+      <el-footer >
+        <footer></footer>
+      </el-footer >
     </el-container>
   </el-container>
 </template>
 
 <script>
-import Footer from '@/components/Footer'
+import Footer from '../components/Footer'
 export default {
   data() {
     return {
@@ -63,10 +63,10 @@ export default {
       this.isCollapse = !this.isCollapse;
     },
   },
-  components: {
-    'v-footer': Footer
-  },
-};
+  components:{
+    'footer': Footer
+  }
+}
 </script>
 
 <style lang="less" scoped>
