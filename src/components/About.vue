@@ -62,6 +62,8 @@ export default {};
 }
 .content {
   position: relative;
+}
+
   .cover {
     display: block;
     position: absolute;
@@ -74,8 +76,6 @@ export default {};
     filter: blur(8px);
     z-index: -10;
   }
-}
-
 .introduction {
   border-radius: 8px;
   background: rgba(0, 0, 0, 0.2);
