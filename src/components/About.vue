@@ -77,10 +77,6 @@ export default {};
 }
 
 .introduction {
-  // width: 80%;
-  // text-indent: 2rem;
-  // margin: 0 auto;
-
   border-radius: 8px;
   background: rgba(0, 0, 0, 0.2);
   top: 0;
