@@ -40,6 +40,9 @@ export default {};
   margin: 0 auto;
   padding-bottom: 80px;
 }
+.title-wrap {
+  text-align: center;
+}
 .title {
   position: absolute;
   top: 10%;
