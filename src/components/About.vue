@@ -3,7 +3,7 @@
     <div class="img">关于我</div>
     <div class="about-me">
       <div class="title-wrap">
-        <h1 class="title">我的简介</h1>
+      <h1 class="title">我的简介</h1>
       </div>
       <div class="content">
         <div class="cover"></div>
@@ -44,10 +44,6 @@ export default {};
   text-align: center;
 }
 .title {
-  position: absolute;
-  top: 10%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   display: inline-block;
   position: relative;
   padding: 60px 20px;
