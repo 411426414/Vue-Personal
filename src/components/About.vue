@@ -62,17 +62,17 @@ export default {};
 }
 .content {
   position: relative;
-}
-.content .cover {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background-image: url(https://www.dengzhanyong.com/img/aboutMe-bg.fc46291b.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  border-radius: 8px;
-  filter: blur(8px);
-  z-index: -10;
+  .cover {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url(https://www.dengzhanyong.com/img/aboutMe-bg.fc46291b.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    border-radius: 8px;
+    filter: blur(8px);
+    z-index: -10;
+  }
 }
 
 .introduction {
