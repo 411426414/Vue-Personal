@@ -63,6 +63,7 @@ export default {};
 .content {
   position: relative;
   .cover {
+    display: block;
     position: absolute;
     height: 100%;
     width: 100%;
