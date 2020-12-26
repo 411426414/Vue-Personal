@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <div class="img">关于我</div>
+    <div class="img">关于</div>
     <div class="about-me">
       <div class="title-wrap">
       <h1 class="title">我的简介</h1>
