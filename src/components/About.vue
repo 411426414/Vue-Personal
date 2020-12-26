@@ -2,7 +2,9 @@
   <div class="about">
     <div class="img">关于我</div>
     <div class="about-me">
-      <h1 class="title">我的简介</h1>
+      <div class="title-wrap">
+        <h1 class="title">我的简介</h1>
+      </div>
       <div class="content">
         <div class="cover"></div>
         <div class="introduction">
