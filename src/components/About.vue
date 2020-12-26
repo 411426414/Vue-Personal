@@ -93,4 +93,9 @@ export default {};
   font-family: acuta;
   text-indent: 2em;
 }
+
+.content .introduction a {
+  color: #0ad0ab;
+  font-style: italic;
+}
 </style>
