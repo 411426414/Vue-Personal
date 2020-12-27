@@ -48,6 +48,12 @@ export default {};
   background-size: cover;
   background-attachment: fixed;
 }
+.about .header .info-wrap {
+  position: absolute;
+  left: 20%;
+  bottom: 180px;
+  color: #fff;
+}
 .about-me {
   max-width: 960px;
   margin: 0 auto;
