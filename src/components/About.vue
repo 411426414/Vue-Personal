@@ -1,6 +1,16 @@
 <template>
   <div class="about">
-    <div class="img">关于</div>
+    <div class="header">
+      <div class="info-wrap">
+        <h1>To Be A Better Man</h1>
+        <p>@ Since 2020</p>
+        <div>
+          <img src="" alt="" />
+          <h2>Mr. Deng</h2>
+          <p>All the surprises are on the way</p>
+        </div>
+      </div>
+    </div>
     <div class="about-me">
       <div class="title-wrap">
       <h1 class="title">我的简介</h1>
@@ -30,10 +40,8 @@ export default {};
 </script>
 
 <style lang="less" scoped>
-.img {
-  width: 100%;
+.header {
   height: 100vh;
-  background: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1608574050504&di=68f515bd3d85c220d756640c725fb8e2&imgtype=0&src=http%3A%2F%2Fbbsfiles.vivo.com.cn%2Fvivobbs%2Fattachment%2Fforum%2F201706%2F24%2F120513xjmo2xki377j4d9x.jpg);
 }
 .about-me {
   max-width: 960px;
@@ -64,18 +72,18 @@ export default {};
   position: relative;
 }
 
-  .cover {
-    display: block;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background-image: url(https://www.dengzhanyong.com/img/aboutMe-bg.fc46291b.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    border-radius: 8px;
-    filter: blur(8px);
-    z-index: -10;
-  }
+.cover {
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: url(https://www.dengzhanyong.com/img/aboutMe-bg.fc46291b.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  border-radius: 8px;
+  filter: blur(8px);
+  z-index: -10;
+}
 .introduction {
   border-radius: 8px;
   background: rgba(0, 0, 0, 0.2);
