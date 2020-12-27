@@ -5,7 +5,7 @@
         <h1>To Be A Better Man</h1>
         <p>@ Since 2020</p>
         <div>
-          <img src="" alt="" />
+          <img src="https://www.dengzhanyong.com/img/aboutMe-bg.fc46291b.jpg" alt="" />
           <h2>Mr. Deng</h2>
           <p>All the surprises are on the way</p>
         </div>
