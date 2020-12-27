@@ -54,6 +54,9 @@ export default {};
   bottom: 180px;
   color: #fff;
 }
+.about .header .info-wrap h1 {
+  font-size: 40px;
+}
 .about-me {
   max-width: 960px;
   margin: 0 auto;
