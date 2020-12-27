@@ -57,6 +57,9 @@ export default {};
 .about .header .info-wrap h1 {
   font-size: 40px;
 }
+.about .header .info-wrap p {
+  font-size: 18px;
+}
 .about-me {
   max-width: 960px;
   margin: 0 auto;
