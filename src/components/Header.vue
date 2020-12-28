@@ -33,7 +33,13 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      activeIndex: '/home'
+    }
+  }
+};
 </script>
 
 <style lang="less" scoped>
