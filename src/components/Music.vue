@@ -2,7 +2,9 @@
   <div>
     <div class="m-top">
       <div class="wrap">
-        <h1 class="logo"></h1>
+        <h1 class="logo">
+          <a href="#/music">网易云音乐</a>
+        </h1>
       </div>
     </div>
   </div>
@@ -36,5 +38,12 @@ export default {};
   width: 176px;
   height: 69px;
   background-position: 0 0;
+}
+.m-top .logo a {
+  float: left;
+  width: 157px;
+  height: 100%;
+  padding-right: 20px;
+  text-indent: -9999px;
 }
 </style>
