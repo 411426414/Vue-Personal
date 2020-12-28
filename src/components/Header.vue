@@ -38,6 +38,11 @@ export default {
     return {
       activeIndex: '/home'
     }
+  },
+  methods: {
+    logout () {
+      
+    }
   }
 };
 </script>
