@@ -22,4 +22,8 @@ export default {};
   background: #242424;
   border-bottom: 1px solid #000;
 }
+.m-top .wrap {
+  width: 1100px;
+  margin: 0 auto;
+}
 </style>
