@@ -5,7 +5,7 @@
         <h1>To Be A Better Man</h1>
         <p>@ Since 2020</p>
         <div>
-          <img src="https://www.dengzhanyong.com/img/aboutMe-bg.fc46291b.jpg" alt="" />
+          <img class="img" src="https://www.dengzhanyong.com/img/aboutMe-bg.fc46291b.jpg" alt="" />
           <h2>Mr. Deng</h2>
           <p>All the surprises are on the way</p>
         </div>
@@ -40,6 +40,9 @@ export default {};
 </script>
 
 <style lang="less" scoped>
+.img {
+  width: 100px;
+}
 .header {
   // background: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1608574050504&di=68f515bd3d85c220d756640c725fb8e2&imgtype=0&src=http%3A%2F%2Fbbsfiles.vivo.com.cn%2Fvivobbs%2Fattachment%2Fforum%2F201706%2F24%2F120513xjmo2xki377j4d9x.jpg);
   position: relative;
