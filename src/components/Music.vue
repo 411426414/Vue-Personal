@@ -1,6 +1,9 @@
 <template>
   <div>
     <div class="m-top">
+      <div class="wrap">
+        <h1 class="logo"></h1>
+      </div>
     </div>
   </div>
 </template>
@@ -25,5 +28,13 @@ export default {};
 .m-top .wrap {
   width: 1100px;
   margin: 0 auto;
+}
+.m-top .logo {
+  background: url(https://s2.music.126.net/style/web2/img/frame/topbar.png?3b29c730f12349abdc07807bac6481c0)
+    no-repeat 0 9999px;
+  float: left;
+  width: 176px;
+  height: 69px;
+  background-position: 0 0;
 }
 </style>
