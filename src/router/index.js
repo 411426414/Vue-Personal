@@ -1,5 +1,6 @@
 import Login from '@/components/Login.vue'
 import Music from '@/components/Music.vue'
+import Company from '@/views/demo/Company'
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
@@ -19,6 +20,11 @@ const routes = [
     path: '/music',
     name: 'Music',
     component: Music
+  },
+  {
+    path: '/company',
+    name: 'Company',
+    component: Company
   },
   {
     path: '/home',
