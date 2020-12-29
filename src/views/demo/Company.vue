@@ -1,0 +1,158 @@
+<template>
+  <div>
+    <!--
+        描述：第一部分响应式导航条（20分）
+        要求： 1.导航条背景颜色：#f4511e；
+          2.字体： Montserrat, sans-serif;
+          3.文字颜色: #FFFFFF；
+        -->
+    <nav class="navbar navbar-default navbar-fixed-top" id="myNav">
+      <div class="container">
+        <div class="navbar-header">
+          <div id="logo" class="collapse navbar-collapse navbar-left">
+            <ul class="nav navbar-nav">
+              <li><a href="#">Logo</a></li>
+            </ul>
+          </div>
+          <button
+            class="navbar-toggle"
+            data-target=".navbar-collapse"
+            data-toggle="collapse"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse navbar-right">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#About">About</a></li>
+            <li><a href="#SERVICES">SERVICES</a></li>
+            <li><a href="#Portfolio">Portfolio</a></li>
+            <li><a href="#PRICING">PRICING</a></li>
+            <li><a href="#CONTACT">CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--
+        描述：第二部分:巨幕   10分
+        要求：1.请在div中添加未完成的表单
+        -->
+    <div class="jumbotron">
+      <h1>Company</h1>
+      <p>We specialize in blablabla</p>
+      ...
+    </div>
+
+    <!--
+        描述：第三部分：公司介绍  20分
+        请使用媒体查询+栅格系统+按钮+图标完善第三部分内容
+        要求：1.图标类型： glyphicon-globe；
+          2.大小font-size: 200px;
+          3.颜色: #f4511e;
+          4.大屏幕下分两列，小屏幕下独占一列    
+          5.小屏幕下第三部分隐藏不可见
+        -->
+    <div class="">...</div>
+
+    <!--
+        描述：第四部分：SERVICES服务  （15分）
+        类似第三部分，请使用栅格系统+图标完善第三部分内容
+        要求：1.图标类型： glyphicon-off  glyphicon-heart glyphicon-lock
+              glyphicon-leaf  glyphicon-certificate glyphicon-wrench；
+          2.图标大小font-size: 50px;
+          3.颜色: #f4511e;
+          4.大屏幕下分三列，小屏幕下独占一列
+                文本： <h4>POWER LOVE JOB DONE</h4>
+              <p>Lorem ipsum dolor sit amet..</p>
+        -->
+    <div class=" ">
+      <h1>SERVICES</h1>
+      <p>What we offer</p>
+      <p>&nbsp;</p>
+      ....
+    </div>
+    <!--
+        描述：第五部分：Portfolio 缩略图 （15分）
+        要求： 1.缩略图区域背景颜色：#f6f6f6；
+              2.图片去掉边框线
+              3.图片大小继承父元素大小
+              4.标题居中
+        文本：New York Paris San Francisco
+        We built New York   Yes, we built Pari  Yes, we built San Francisco
+        -->
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div class="">
+      <h2>Portfolio</h2>
+      <h4>What we have created</h4>
+      ...
+    </div>
+
+    <!--
+        描述：第六部分：表单（15分）
+        要求： 1.区域背景颜色：#f6f6f6；
+              2.图标采用默认大小
+        图标类型：glyphicon-map-marker glyphicon-phone glyphicon-envelope
+        文本：Chicago, US
+        -->
+    <div class=" ">
+      <div class="row">
+        <div class="col-sm-5"></div>
+        <div class="col-sm-7">
+          <h2>CONTACT</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class=" ">
+          <p>Contact us and we'll get back to you within 24 hours.</p>
+          <p>Chicago, US</p>
+          <p>+00 1515151515</p>
+          <p>myemail@something.com</p>
+        </div>
+        <div class="">
+          ...
+          <!--描述：文本域组件-->
+          <div class="row">
+            <div class="col-sm-12 form-group">
+              <textarea
+                class="form-control"
+                placeholder="Comment"
+                rows="5"
+              ></textarea>
+            </div>
+          </div>
+          ...
+        </div>
+      </div>
+    </div>
+    <!--
+        描述：第七部分 页面脚部  （5分）
+        请在此区域标注：个人 班级 姓名 学号
+        -->
+    <footer class="container-fluid bg-grey text-center">
+      <div class="row">
+        <div class="col-sm-12">
+          <a href="#"
+            ><span class="glyphicon glyphicon-chevron-up logo-min"></span
+          ></a>
+          <p>版权说明@：班级 张三 学号</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+</template>
+
+<script>
+export default {};
+</script>
+
+<style lang="less" scoped>
+body {
+  font: 400 15px Lato, sans-serif;
+  color: #818181;
+  line-height: 1.8;
+}
+</style>
