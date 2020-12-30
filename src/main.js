@@ -1,4 +1,5 @@
 import axios from 'axios'
+import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 import 'element-ui/lib/theme-chalk/index.css'
 import NProgress from 'nprogress'
 import 'nprogress/nprogress.css'
@@ -8,7 +9,8 @@ import './assets/css/global.css'
 import './plugins/element.js'
 import router from './router'
 import store from './store'
-
+Vue.use(BootstrapVue)
+Vue.use(IconsPlugin)
 Vue.config.productionTip = false
 
 // 配置请求根路径
