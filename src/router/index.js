@@ -21,6 +21,11 @@ const routes = [
     component: Music
   },
   {
+    path: '/qqmusic',
+    name: 'qqMusic',
+    component: () => import('@/views/qqMusic')
+  },
+  {
     path: '/home',
     name: 'Home',
     component: () => import('@/views/Home'),
