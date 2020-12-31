@@ -1,6 +1,13 @@
 <template>
-  <div class="bg">
-12345y
+  <div>
+    <el-container>
+      <el-aside>Aside</el-aside>
+      <el-container>
+        <el-header>Header</el-header>
+        <el-main>Main</el-main>
+        <el-footer>Footer</el-footer>
+      </el-container>
+    </el-container>
   </div>
 </template>
 
@@ -11,9 +18,11 @@ name: "qqMusic"
 </script>
 
 <style lang="less" scoped>
-.bg {
-  width: 100vw;
+
+.el-aside {
+  width: 210px !important;
   height: 100vh;
-  background: url("../assets/QQ截图20201231232338.png")
+  border-right: 1px solid #FFF;
+  //background: #FFF;
 }
 </style>
