@@ -1,7 +1,4 @@
 import axios from 'axios'
-import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
-import 'bootstrap-vue/dist/bootstrap-vue.css'
-import 'bootstrap/dist/css/bootstrap.css'
 import 'element-ui/lib/theme-chalk/index.css'
 import NProgress from 'nprogress'
 import 'nprogress/nprogress.css'
@@ -11,12 +8,10 @@ import './assets/css/global.css'
 import './plugins/element.js'
 import router from './router'
 import store from './store'
-Vue.use(BootstrapVue)
-Vue.use(IconsPlugin)
 Vue.config.productionTip = false
 
 // 配置请求根路径
-axios.defaults.baseURL = 'https://localhost:8888/api/private/v1/'
+axios.defaults.baseURL = 'https://www.liulongbin.top:8888/api/private/v1/'
 
 // 在request 拦截器中, 展示进度条 NProgress.start()
 // 请求在到达服务器之前，先会调用use中的这个回调函数来添加请求头信息
