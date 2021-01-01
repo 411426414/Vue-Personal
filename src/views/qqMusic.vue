@@ -2,7 +2,16 @@
   <el-container>
     <el-header class="main">
       <div class="section_inner">
-        <div class="nav-top"></div>
+        <div class="nav-top">
+          <h1 class="qqmusic_title">
+            <a href="" class="qqmusic_title">
+              <img
+                class="qqmusic_logo"
+                src="https://y.gtimg.cn/mediastyle/yqq/img/logo@2x.png"
+              />
+            </a>
+          </h1>
+        </div>
       </div>
     </el-header>
     <el-main class="mod_bg">Main</el-main>
@@ -40,6 +49,15 @@ a {
     position: relative;
     .nav-top {
       height: 90px;
+      .qqmusic_title {
+        position: absolute;
+        left: 0;
+        top: 10px;
+        .qqmusic_logo {
+          width: 170px;
+          height: 46px;
+        }
+      }
     }
   }
 }
