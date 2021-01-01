@@ -1,7 +1,7 @@
 <template>
   <el-container>
     <el-header>Header</el-header>
-    <el-main>Main</el-main>
+    <el-main class="mod_bg">Main</el-main>
   </el-container>
 </template>
 
@@ -26,5 +26,10 @@ li {
 a {
   color: #000;
   text-decoration: none;
+}
+.mod_bg {
+  background: url(https://y.gtimg.cn/mediastyle/yqq/img/bg_detail.jpg) 50% 0
+    repeat-x;
+  position: relative;
 }
 </style>
