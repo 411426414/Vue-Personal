@@ -23,7 +23,7 @@ const routes = [
   {
     path: '/qqmusic',
     name: 'qqMusic',
-    component: () => import('@/views/qqMusic')
+    component: () => import('@/views/qqMusic/qqMusic')
   },
   {
     path: '/home',
