@@ -3,6 +3,7 @@
     <el-header class="main">
       <div class="section_inner">
         <qqMusicTop></qqMusicTop>
+        <Category></Category>
       </div>
     </el-header>
     <el-main class="mod_bg">Main</el-main>
@@ -11,10 +12,12 @@
 
 <script>
 import qqMusicTop from "@/components/qqMusic/qqMusic-Top";
+import Category from "@/components/qqMusic/Category";
 export default {
   name: "qqMusic",
   components: {
-    qqMusicTop
+    qqMusicTop,
+    Category
   },
 };
 </script>
