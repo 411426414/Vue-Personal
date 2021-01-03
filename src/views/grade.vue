@@ -1,5 +1,8 @@
 <template>
   <el-card>
+    <el-button type="primary">
+      <h1>添加科目</h1>
+    </el-button>
     <el-table :data="TableData" border show-summary style="width: 100%">
       <el-table-column width="100" type="index" label="科目"></el-table-column>
       <el-table-column prop="Grade" label="该科成绩"></el-table-column>
