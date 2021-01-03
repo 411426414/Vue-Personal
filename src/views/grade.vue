@@ -16,7 +16,16 @@
       :visible.sync="gradeDialogVisible"
       width="50%"
     >
-      <span> 提示 </span>
+      <span>
+        <el-form ref="form" :model="form" label-width="80px">
+          <el-form-item label="该科成绩">
+            <el-input v-model.number="form.Grade"></el-input>
+          </el-form-item>
+          <el-form-item label="取得学分">
+            <el-input v-model.number="form.GetCredits"></el-input>
+          </el-form-item>
+        </el-form>
+      </span>
       <span slot="footer" class="dialog-footer">
         <el-button @click="gradeDialogVisible = false">取 消</el-button>
         <el-button type="primary" @click="gradeDialogVisible = false">
@@ -31,6 +40,10 @@
 export default {
   data() {
     return {
+      form: {
+        Grade: "",
+        GetCredits: "",
+      },
       gradeDialogVisible: false,
       TableData: [
         {
