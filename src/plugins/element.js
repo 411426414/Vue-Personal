@@ -1,7 +1,9 @@
 import {
   Aside,
   Button,
+  Card,
   Container,
+  Dialog,
   Dropdown,
   DropdownItem,
   DropdownMenu,
@@ -22,7 +24,9 @@ import {
 import Vue from 'vue'
 
 Vue.use(Button)
+Vue.use(Card)
 Vue.use(Form)
+Vue.use(Dialog)
 Vue.use(FormItem)
 Vue.use(Footer)
 Vue.use(Input)
