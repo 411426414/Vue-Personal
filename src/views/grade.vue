@@ -28,9 +28,7 @@
       </span>
       <span slot="footer" class="dialog-footer">
         <el-button @click="gradeDialogVisible = false">取 消</el-button>
-        <el-button type="primary" @click="gradeDialogVisible = false">
-          确 定
-        </el-button>
+        <el-button type="primary" @click="Add"> 确 定 </el-button>
       </span>
     </el-dialog>
   </el-card>
@@ -45,7 +43,8 @@ export default {
         GetCredits: "",
       },
       gradeDialogVisible: false,
-      TableData: [
+      TableData: [],
+      item: [
         {
           Grade: "",
           GetCredits: "",
@@ -54,6 +53,11 @@ export default {
         },
       ],
     };
+  },
+  methods: {
+    Add() {
+      this.gradeDialogVisible = false;
+    },
   },
 };
 </script>
