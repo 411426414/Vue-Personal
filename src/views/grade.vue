@@ -41,21 +41,17 @@ export default {
       form: {
         Grade: "",
         GetCredits: "",
+        GradePoint: "",
+        CreditGradePoint: "",
       },
       gradeDialogVisible: false,
       TableData: [],
-      item: [
-        {
-          Grade: "",
-          GetCredits: "",
-          GradePoint: "",
-          CreditGradePoint: "",
-        },
-      ],
     };
   },
   methods: {
     Add() {
+      this.TableData.push(this.form);
+      // console.log(this.TableData);
       this.gradeDialogVisible = false;
     },
   },
