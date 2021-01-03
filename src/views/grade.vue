@@ -50,6 +50,12 @@ export default {
   },
   methods: {
     Add() {
+      /*
+       * 绩点计算规则
+       * 如果该科成绩小于60分：绩点为 0
+       * 如果该科成绩小于60分：
+       *     绩点计算规则为：(该科成绩 - 50) /10
+       */
       this.TableData.push(this.form);
       // console.log(this.TableData);
       this.gradeDialogVisible = false;
