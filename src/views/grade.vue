@@ -56,7 +56,18 @@ export default {
        * 如果该科成绩小于60分：
        *     绩点计算规则为：(该科成绩 - 50) /10
        */
-      this.TableData.push(this.form);
+      // 成绩
+      this.TableData.Grade = this.form.Grade;
+      // 学分
+      this.TableData.GetCredits = this.form.GetCredits;
+      // 绩点
+      if (this.form.Grade < 60) {
+        this.TableData.GradePoint = 0;
+      } else {
+        this.TableData.GradePoint = (this.item.Grade - 50) / 10;
+      }
+      // 学分绩点
+      this.TableData.CreditGradePoint = this.item.GetCredits * this.item.GradePoint;
       // console.log(this.TableData);
       this.gradeDialogVisible = false;
     },
