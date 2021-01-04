@@ -29,7 +29,9 @@
     </div>
     <div class="header__opt">
       <!-- 未登录 -->
-      <div class="mod_top_login"></div>
+      <div class="mod_top_login">
+        <a class="top_login__link">登录</a>
+      </div>
     </div>
   </div>
 </template>
@@ -142,6 +144,15 @@ export default {};
       font-size: 0;
       height: 90px;
       line-height: 90px;
+      .top_login__link {
+        position: relative;
+        z-index: 12;
+        font-size: 16px;
+        float: left;
+        width: 38px;
+        margin-right: 10px;
+        text-align: center;
+      }
     }
   }
 }
