@@ -41,8 +41,6 @@ export default {
       form: {
         Grade: "",
         GetCredits: "",
-        GradePoint: "",
-        CreditGradePoint: "",
       },
       gradeDialogVisible: false,
       TableData: [],
