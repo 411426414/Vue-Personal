@@ -1,7 +1,7 @@
 <template>
   <div class="nav-top">
     <h1 class="qqmusic_title">
-      <a href="" class="qqmusic_title">
+      <a class="qqmusic_title">
         <img
           class="qqmusic_logo"
           src="https://y.gtimg.cn/mediastyle/yqq/img/logo@2x.png"
