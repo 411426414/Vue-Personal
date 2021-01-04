@@ -17,7 +17,7 @@
       width="50%"
     >
       <span>
-        <el-form ref="form" :model="form" label-width="80px">
+        <el-form ref="addForm" :model="form" label-width="80px">
           <el-form-item label="该科成绩">
             <el-input v-model.number="form.Grade"></el-input>
           </el-form-item>
@@ -46,6 +46,12 @@ export default {
       },
       gradeDialogVisible: false,
       TableData: [],
+      item: {
+        Grade: "",
+        GetCredits: "",
+        GradePoint: "",
+        CreditGradePoint: "",
+      },
     };
   },
   methods: {
@@ -57,18 +63,18 @@ export default {
        *     绩点计算规则为：(该科成绩 - 50) /10
        */
       // 成绩
-      this.TableData.Grade = this.form.Grade;
+      this.item.Grade = this.form.Grade;
       // 学分
-      this.TableData.GetCredits = this.form.GetCredits;
+      this.item.GetCredits = this.form.GetCredits;
       // 绩点
       if (this.form.Grade < 60) {
-        this.TableData.GradePoint = 0;
+        this.item.GradePoint = 0;
       } else {
-        this.TableData.GradePoint = (this.item.Grade - 50) / 10;
+        this.item.GradePoint = (this.item.Grade - 50) / 10;
       }
       // 学分绩点
-      this.TableData.CreditGradePoint = this.item.GetCredits * this.item.GradePoint;
-      // console.log(this.TableData);
+      this.item.CreditGradePoint = this.item.GetCredits * this.item.GradePoint;
+      this.TableData.push(this.item);
       this.gradeDialogVisible = false;
     },
   },
