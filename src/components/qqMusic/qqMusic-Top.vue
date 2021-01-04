@@ -28,6 +28,8 @@
       </div>
     </div>
     <div class="header__opt">
+      <!-- 未登录 -->
+      <div class="mod_top_login"></div>
     </div>
   </div>
 </template>
@@ -136,6 +138,11 @@ export default {};
     right: 0;
     height: 90px;
     line-height: 90px;
+    .mod_top_login {
+      font-size: 0;
+      height: 90px;
+      line-height: 90px;
+    }
   }
 }
 </style>
