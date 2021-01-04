@@ -27,6 +27,8 @@
         </button>
       </div>
     </div>
+    <div class="header__opt">
+    </div>
   </div>
 </template>
 
@@ -127,6 +129,13 @@ export default {};
         }
       }
     }
+  }
+  .header__opt {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 90px;
+    line-height: 90px;
   }
 }
 </style>
