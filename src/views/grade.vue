@@ -15,6 +15,7 @@
       title="将每学科对应成绩及学分输入到表格中对应处"
       :visible.sync="gradeDialogVisible"
       width="50%"
+      @close="addDialogClosed"
     >
       <span>
         <el-form ref="addForm" :model="form" label-width="80px">
@@ -74,6 +75,11 @@ export default {
       this.item.CreditGradePoint = this.item.GetCredits * this.item.GradePoint;
       this.TableData.push(this.item);
       this.gradeDialogVisible = false;
+    },
+    // 监听对话框的关闭事件
+    addDialogClosed() {
+      // 重置表单数据
+      this.$refs.addForm.resetFields();
     },
   },
 };
