@@ -201,6 +201,15 @@ export default {};
           left: 0;
           top: 38px;
           z-index: 10;
+          .select__item {
+            line-height: 40px;
+            cursor: pointer;
+            text-align: center;
+            white-space: nowrap;
+            border: 1px solid #c9c9c9;
+            background-color: #fff;
+            border-top: none;
+          }
         }
       }
     }
