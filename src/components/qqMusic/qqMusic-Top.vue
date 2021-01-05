@@ -31,6 +31,7 @@
       <!-- 未登录 -->
       <div class="mod_top_login">
         <a class="top_login__link">登录</a>
+        <div class="mod_select_open"></div>
       </div>
     </div>
   </div>
@@ -152,6 +153,14 @@ export default {};
         width: 38px;
         margin-right: 10px;
         text-align: center;
+      }
+      .mod_select_open {
+        width: 122px;
+        float: left;
+        position: relative;
+        height: 38px;
+        font-size: 13px;
+        margin-top: 24px;
       }
     }
   }
