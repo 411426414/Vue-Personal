@@ -107,6 +107,10 @@ export default {};
         -webkit-transition: width 0.6s ease-out, visibility 0.6s 1ms ease-out;
         transition: width 0.6s ease-out, visibility 0.6s 1ms ease-out;
       }
+      .search_input__input:focus {
+        outline: none;
+        border: 1px solid #fff;
+      }
       .search_input__btn {
         position: absolute;
         top: 0;
