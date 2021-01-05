@@ -33,6 +33,7 @@
         <a class="top_login__link">登录</a>
         <div class="mod_select_open">
           <a class="select__choose">开通VIP</a>
+          <ul class="select__box"></ul>
         </div>
       </div>
     </div>
@@ -163,10 +164,14 @@ export default {};
         height: 38px;
         font-size: 13px;
         margin-top: 24px;
-        .select__choose {
+        .select__choose,
+        .select__choose:hover,
+        .select__item:hover {
           background-color: #31c27c;
           color: #fff;
           border-color: #31c27c;
+        }
+        .select__choose {
           display: block;
           line-height: 38px;
           padding: 0 15px 0 10px;
