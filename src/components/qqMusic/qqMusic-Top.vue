@@ -31,7 +31,9 @@
       <!-- 未登录 -->
       <div class="mod_top_login">
         <a class="top_login__link">登录</a>
-        <div class="mod_select_open"></div>
+        <div class="mod_select_open">
+          <a class="select__choose">开通VIP</a>
+        </div>
       </div>
     </div>
   </div>
@@ -161,6 +163,18 @@ export default {};
         height: 38px;
         font-size: 13px;
         margin-top: 24px;
+        .select__choose {
+          background-color: #31c27c;
+          color: #fff;
+          border-color: #31c27c;
+          display: block;
+          line-height: 38px;
+          padding: 0 15px 0 10px;
+          text-align: center;
+          white-space: nowrap;
+          border: 1px solid #c9c9c9;
+          border-radius: 3px;
+        }
       }
     }
   }
