@@ -191,6 +191,14 @@ export default {};
           border-right: 4px solid transparent;
           border-top: 6px solid currentColor;
         }
+        .select__box {
+          display: none;
+          position: absolute;
+          width: 100%;
+          left: 0;
+          top: 38px;
+          z-index: 10;
+        }
       }
     }
   }
