@@ -210,6 +210,9 @@ export default {};
             background-color: #fff;
             border-top: none;
           }
+          .select__item:first-of-type {
+            border-top: 1px solid #c9c9c9;
+          }
         }
       }
     }
