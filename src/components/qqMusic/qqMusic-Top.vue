@@ -33,7 +33,10 @@
         <a class="top_login__link">登录</a>
         <div class="mod_select_open">
           <a class="select__choose">开通VIP</a>
-          <ul class="select__box"></ul>
+          <ul class="select__box">
+            <li class="select__item">开通绿钻豪华版</li>
+            <li class="select__item">开通付费包</li>
+          </ul>
         </div>
       </div>
     </div>
