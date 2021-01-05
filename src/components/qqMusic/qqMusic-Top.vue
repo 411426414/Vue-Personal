@@ -180,6 +180,17 @@ export default {};
           border: 1px solid #c9c9c9;
           border-radius: 3px;
         }
+        .select__choose::after {
+          position: absolute;
+          content: "";
+          right: 8px;
+          top: 16px;
+          width: 0;
+          height: 0;
+          border-left: 4px solid transparent;
+          border-right: 4px solid transparent;
+          border-top: 6px solid currentColor;
+        }
       }
     }
   }
