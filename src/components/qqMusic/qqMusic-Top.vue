@@ -213,6 +213,10 @@ export default {};
           .select__item:first-of-type {
             border-top: 1px solid #c9c9c9;
           }
+          .select__item:last-of-type {
+            border-bottom-left-radius: 3px;
+            border-bottom-right-radius: 3px;
+          }
         }
       }
     }
