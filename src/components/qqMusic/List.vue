@@ -6,6 +6,18 @@
       <li>专辑</li>
       <li>时长</li>
     </ul>
+    <ul class="music">
+      <li>1</li>
+      <li>像鱼</li>
+      <li>像鱼</li>
+      <li>04:45</li>
+    </ul>
+    <ul class="music">
+      <li>1</li>
+      <li>像鱼</li>
+      <li>像鱼</li>
+      <li>04:45</li>
+    </ul>
   </div>
 </template>
 
@@ -16,6 +28,9 @@ export default {};
 <style lang="less" scoped>
 .title {
   background: #d9edf7;
+}
+.title,
+.music {
   width: 1200px;
   height: 50px;
   margin: 0 auto;
