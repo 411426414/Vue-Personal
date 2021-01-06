@@ -12,6 +12,7 @@ body,
 	min-width: 1366px;
 }
 li {
+  float: left;
   list-style: none;
 }
 a {
