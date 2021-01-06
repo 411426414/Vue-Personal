@@ -52,4 +52,7 @@ export default {};
     width: 10%;
   }
 }
+.music:nth-of-type(odd){
+  background:#fcf8e3;
+}
 </style>
