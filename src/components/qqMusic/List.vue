@@ -55,4 +55,7 @@ export default {};
 .music:nth-of-type(odd){
   background:#fcf8e3;
 }
+.music:nth-of-type(even){
+  background:  #f5f5f5;
+}
 </style>
