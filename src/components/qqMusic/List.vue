@@ -19,5 +19,10 @@ export default {};
   width: 1200px;
   height: 50px;
   margin: 0 auto;
+  li {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+  }
 }
 </style>
