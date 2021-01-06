@@ -1,6 +1,11 @@
 <template>
   <div>
-    <ul class="title"></ul>
+    <ul class="title">
+      <li>编号</li>
+      <li>歌曲</li>
+      <li>专辑</li>
+      <li>时长</li>
+    </ul>
   </div>
 </template>
 
