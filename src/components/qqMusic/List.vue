@@ -24,5 +24,17 @@ export default {};
     line-height: 50px;
     text-align: center;
   }
+  li:nth-of-type(1) {
+    width: 10%;
+  }
+  li:nth-of-type(2) {
+    width: 40%;
+  }
+  li:nth-of-type(3) {
+    width: 40%;
+  }
+  li:nth-of-type(4) {
+    width: 10%;
+  }
 }
 </style>
