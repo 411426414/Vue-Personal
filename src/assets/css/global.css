@@ -31,3 +31,6 @@ a {
 .warning{
   background: #fcf8e3;
 }
+.danger{
+  background: #f2dede;
+}
