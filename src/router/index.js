@@ -1,5 +1,6 @@
 import Login from '@/components/Login.vue'
 import Music from '@/components/Music.vue'
+import QQMusic from '@/views/qqMusic/qqMusic'
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
@@ -23,7 +24,7 @@ const routes = [
   {
     path: '/qqmusic',
     name: 'qqMusic',
-    component: () => import('@/views/qqMusic/qqMusic')
+    component: QQMusic
   },
   {
     path: '/home',
