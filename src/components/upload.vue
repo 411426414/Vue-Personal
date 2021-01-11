@@ -9,6 +9,11 @@ export default {
       key: 'value'
     }
   },
+  methods: {
+    name() {
+      
+    }
+  },
 }
 </script>
 
