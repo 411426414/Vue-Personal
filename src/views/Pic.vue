@@ -1,11 +1,15 @@
 <template>
   <div>
-    图片组件
+    <PicItem></PicItem>
   </div>
 </template>
 
 <script>
+import PicItem from "../components/PicItem";
 export default {
+  components: {
+    PicItem,
+  },
 };
 </script>
 
