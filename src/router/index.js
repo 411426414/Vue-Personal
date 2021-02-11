@@ -1,31 +1,9 @@
-import Login from '@/components/Login.vue'
-import Music from '@/components/Music.vue'
-import QQMusic from '@/views/qqMusic/qqMusic'
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
 Vue.use(VueRouter)
 
 const routes = [
-  {
-    path: '/',
-    redirect: '/login'
-  },
-  {
-    path: '/login',
-    name: 'Login',
-    component: Login
-  },
-  {
-    path: '/music',
-    name: 'Music',
-    component: Music
-  },
-  {
-    path: '/qqmusic',
-    name: 'qqMusic',
-    component: QQMusic
-  },
   {
     path: '/home',
     name: 'Home',
@@ -40,6 +18,11 @@ const routes = [
         path: '/grade',
         name: 'Grade',
         component: () => import('../views/grade.vue')
+      },
+      {
+        path: '/pic',
+        name: 'Pic',
+        component: () => import('@/views/Pic')
       }
     ]
   },

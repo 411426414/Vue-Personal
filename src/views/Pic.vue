@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
   <div>图片</div>
 </template>
 
@@ -13,9 +14,20 @@ export default {
     name() {
       
     }
+=======
+  <div>
+    <PicItem></PicItem>
+  </div>
+</template>
+
+<script>
+import PicItem from "../components/PicItem";
+export default {
+  components: {
+    PicItem,
+>>>>>>> Pic
   },
 };
 </script>
 
-<style lang="scss" scoped>
-</style>
+<style lang="less" scoped></style>

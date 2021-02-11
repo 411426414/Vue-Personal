@@ -12,6 +12,12 @@
     <el-menu-item index="/about">关于</el-menu-item>
     <el-menu-item index="/music">音乐</el-menu-item>
     <el-menu-item index="/qqmusic">QQ音乐</el-menu-item>
+<<<<<<< HEAD
+    <el-menu-item index="/music">音乐</el-menu-item>
+    <el-menu-item index="/qqmusic">QQ音乐</el-menu-item>
+=======
+      <el-menu-item index="pic">图片</el-menu-item>
+>>>>>>> Pic
     <el-submenu index="2">
       <template slot="title">我的工作台</template>
       <el-menu-item index="/grade">成绩</el-menu-item>
